@@ -1,0 +1,65 @@
+﻿body {
+	background-color: #99ccff;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+	color: #FFFF00;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 500%;
+	font-family: "Bauhaus 93";
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 20%;
+}
+.main{
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
+	height: 80%;
+	width: 100%;
+	top: 20%;
+}
+.footer{
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 10%;
+}
+.main_content{
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 50%;
+	top: 25%;
+	bottom: 25%;
+}
+.g-signin2{
+  width: 100%;
+}
+
+.g-signin2 > div{
+  margin: 0 auto;
+}
+.account_info{
+	font-size: 30%;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	color: black;
+	font-weight: normal;
+}
+
+.column3rd{
+	float: left;
+	width: 33.33%;
+}
+
+.column2_3rd{
+	float: left;
+	width: 66.66%;
+}
+
