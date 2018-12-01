@@ -18,11 +18,6 @@ if (mysqli_num_rows($sresponse) > 0){
 	 	//$conn->close();
 	 	header('Location: https://www.wirk.app/employee_dashboard.php');
 	 }
-	 elseif ( $rows['UserType'] == "Admin" ) {
-		//$conn->close();
-	 	header('Location: https://www.wirk.app/employee_dashboard.php');
-	}
-
 } else {
 
 	$insert = "INSERT INTO Users(UserID, FirstName, LastName, Email) VALUES ('" . $_POST["id"] . "', '" . $_POST["fname"] . "', '" . $_POST["lname"] . "', '" . $_POST["email"] . "')";
